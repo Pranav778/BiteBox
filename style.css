@@ -1,0 +1,44 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: antiquewhite;
+    justify-content: space-around;
+}
+
+ul{
+    display: inline;
+justify-content: space-around;
+}
+
+li{
+    display: inline;
+    padding: 2vw;
+    margin: 2vw;
+    justify-content: space-around;
+}
+
+div{
+    display: inline;
+    justify-content: space-around;
+}
+
+h1{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+

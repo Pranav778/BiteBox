@@ -8,21 +8,12 @@ body{
     width: 100%;
 }
 
-header{
-    background-color: antiquewhite;
-    justify-content: space-around;
-}
 
-ul{
-    display: inline;
-justify-content: space-around;
-}
 
 li{
     display: inline;
     padding: 2vw;
-    margin: 2vw;
-    justify-content: space-around;
+
 }
 
 div{
@@ -32,13 +23,41 @@ div{
 
 h1{
     display: inline-block;
-    justify-content: space-between;
+}
+
+#title{
+    margin: 0px 0px 60px 10px;
+    padding: 0px 0px 14px 0px;
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
+    
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    padding: 20px 5px 5px 5px; 
+}
 
+nav li:not(:last-child) a:hover{
+    color: red;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
 
+nav li:last-child a{
+    background-color: red;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+nav li:last-child a:hover{
+    color: black;
+    background: red;
+}

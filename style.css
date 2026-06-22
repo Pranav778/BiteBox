@@ -9,7 +9,7 @@ body{
 }
 
 
-
+    
 li{
     display: inline;
     padding: 2vw;
@@ -26,10 +26,15 @@ h1{
 }
 
 #title{
-    margin: 0px 0px 60px 10px;
-    padding: 0px 0px 14px 0px;
+    position: relative;
 }
 
+img{
+    position: absolute;
+    display: inline-block;
+    width: 180px;
+    top:-40px ;
+}
 a{
     text-decoration: none;
     color: white;

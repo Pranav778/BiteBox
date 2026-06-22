@@ -1,53 +1,43 @@
 *{
-    margin: 0%;
-    padding: 0%;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body{
-    height: 100%;
     width: 100%;
-}
-
-
-    
-li{
-    display: inline;
-    padding: 2vw;
-
-}
-
-div{
-    display: inline;
-    justify-content: space-around;
-}
-
-h1{
-    display: inline-block;
-}
-
-#title{
-    position: relative;
-}
-
-img{
-    position: absolute;
-    display: inline-block;
-    width: 180px;
-    top:-40px ;
-}
-a{
-    text-decoration: none;
-    color: white;
-    
+    height: 100%;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    height: 5vh;
+    align-items: center;   /* vertically center items */
     background-color: black;
+    padding: 0px 20px;
+    /* height: 10vh; */
+}
+
+#title img{
+    width: 150px;          /* adjust size */
+    height: auto;
+    position: static;      /* remove absolute */
+    display: block;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    padding: 0 20px;
+}
+
+a{
+    text-decoration: none;
     color: white;
-    padding: 20px 5px 5px 5px; 
 }
 
 nav li:not(:last-child) a:hover{
@@ -57,12 +47,7 @@ nav li:not(:last-child) a:hover{
 }
 
 nav li:last-child a{
-    background-color: red;
+    background: red;
     padding: 6px 12px;
     border-radius: 5px;
-}
-
-nav li:last-child a:hover{
-    color: black;
-    background: red;
 }

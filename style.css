@@ -15,7 +15,7 @@ nav{
     align-items: center;   /* vertically center items */
     background-color: black;
     padding: 0px 20px;
-    /* height: 10vh; */
+    height: 4.5vw;
 }
 
 #title img{
@@ -28,7 +28,7 @@ nav{
 ul{
     display: flex;
     align-items: center;
-    list-style: none;
+    /* list-style: none; */
 }
 
 li{
@@ -50,4 +50,64 @@ nav li:last-child a{
     background: red;
     padding: 6px 12px;
     border-radius: 5px;
+}
+
+nav li:last-child a:hover{
+    color: black;
+}
+
+.banner{
+    height: 90vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center ;background-image: url(images/Untitled\ design.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.banner-content{
+    text-align: center;
+}
+
+
+.banner-content h1{
+    font-size: 10vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-content p {
+    font-size: 3vh;
+}
+
+.banner-content button{
+    border-radius: 20px;
+    border: none;
+    padding: 20px 20px;
+    background-color: orange;
+    color: red;
+}
+
+.video{
+    display: flex;
+    justify-content: space-between  ;
+    padding: 20px 30px;  
+    background-color: #E87F24;  
+}
+
+.video-content h1{
+    font-size: 6.5vh;
+}
+
+.about{
+    height: 25vh;
+    text-align: center;
+    padding: 5vh 0;
+    /* margin: 5vh 0; */
+    background-color: #e6ab6c;
+}
+
+.about h2{
+    font-size: 6.5vh;
 }

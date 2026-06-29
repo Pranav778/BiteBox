@@ -101,7 +101,7 @@ label{
     font-size: 18px;
 }
 
-input[type="text"],input[type="password"]{
+input[type="text"],input[type="password"],input[type="email"]{
     height: 25px;
     background-color:white;
     color: black;

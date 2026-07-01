@@ -195,3 +195,7 @@ nav li:last-child a:hover{
     gap: 50px;
     background-color: #f1f1f1;
 }
+
+#red{border-top: 5px solid red;}
+#yellow{border-top: 5px solid rgb(255, 221, 0);}
+#green{border-top: 5px solid  green;}

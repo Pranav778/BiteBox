@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="login.css">
     <link  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="icon" type="image/png" href="./images/Gemini_Generated_Image_vpk6nvvpk6nvvpk6-removebg-preview.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
 </head>
 <body>
     <header>
@@ -34,10 +35,16 @@
                 <h2>Login Here:</h2>
                 <label for="Useremail">User Email:</label>
                 <input type="email" name="" id="useremail" placeholder="User email" class="input" required>
+                <br> <br>
+                <div style="position: relative;">
+                    <label for="Password">Password:</label>
+                    <input type="password" name="" id="password" placeholder="Password" class="input" required>
+                    <span onclick="Togglepassword()" style="position: absolute; right: 15px; top: 5px; cursor: pointer;">
+                        <i class="ri-eye-line"></i>
+                    </span>
+
                     <br> <br>
-                <label for="Password">Password:</label>
-                <input type="password" name="" id="password" placeholder="Password" class="input" required>
-                    <br> <br>
+                </div>
                 <button type="submit">Login</button>
                 <p>Not registered yet ? <a href="signup.html" class="a">Create Here </a></p>
                 <br>

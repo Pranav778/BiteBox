@@ -30,3 +30,22 @@ function login(event) {
         error.innerHTML = "Error";
     }
 }
+
+function Togglepassword(){
+    let passwordip =document.getElementById("password");
+
+    if(passwordip.type === "password") 
+    {
+        passwordip.type = "text";
+        passwordip.style.height= "25px";
+        passwordip.style.backgroundColor ="white";
+        passwordip.style.color ="Black";
+        passwordip.style.boxShadow ="1px 1px 1px 1px Black";
+        passwordip.style.borderTopRightRadius = "10px";
+        // border-top-right-radius: 10px;
+
+    }
+    else {
+        passwordip.type ="password";
+    } 
+}

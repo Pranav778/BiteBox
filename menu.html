@@ -10,24 +10,29 @@
 
 </head>
 <body>
-    <header> 
-        <nav>
-            <div id="title">
-                <!-- <h1>Bite<span style="color: red;">Box</span></h1>         -->
-                <a href="index.html">
-                <img src="./images/bitebox_white_text.png" alt="logo">
-                </a>
-            </div>
-            <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./menu.html">Menu</a></li>
-                <li><a href="./biteDeals.html">Bite Deals</a></li>
-                <li><a href="./cart.html"><i class="ri-shopping-cart-2-fill"></i></a></li>
-                <li><a href="./login.html"><i class="ri-login-box-line"></i>Login</a></li>
-                
-            </ul>
-        </nav>
-    </header>
+    <header>
+            
+            <nav>
+                <div id="title">
+                    <!-- <h1>Bite<span style="color: red;">Box</span></h1>         -->
+                    <a href="index.html">
+                    <img src="./images/bitebox_white_text.png" alt="logo">
+                    </a>
+                </div>
+
+                <button class="btn-nav" onclick="toggleMenu()" >
+                    <i id="navIcon" class="ri-menu-line"></i>
+                </button>
+
+                    <ul id="navMenu">
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./biteDeals.html">Bite Deals</a></li>
+                        <li><a href="./cart.html"><i class="ri-shopping-cart-2-fill"></i></a></li>
+                        <li><a href="./login.html"><i class="ri-login-box-line"></i>Login</a></li>
+                    </ul>                
+            </nav>
+        </header>
 
 
     <section class="menu">
@@ -126,6 +131,6 @@
         
 
     </section>
-
+    <script src="menu.js"></script>
 </body>
 </html>

@@ -56,6 +56,15 @@ nav li:last-child a:hover{
     color: black;
 }
 
+.btn-nav{
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: white;
+}
+
 
 .menu-container{
     display: flex;
@@ -121,3 +130,49 @@ nav li:last-child a:hover{
     margin-top: 5px;
     font-size: 15px;
 }
+
+ @media (max-width:700px) {
+    .btn-nav {
+        display: initial;
+    }  
+   
+    ul{
+
+        display:none;
+
+        flex-direction:column;
+
+        position:absolute;
+
+        top:29px;
+
+        /* left:-50px; */
+
+        width:100%;
+
+        background:#000;
+
+        text-align:center;
+
+    }
+
+    li{
+        border-bottom: 1px solid white;
+        width: 90%;
+    }
+   
+
+    nav ul.show {
+
+        display:flex;
+
+    }
+
+    nav ul li{
+
+        padding:15px;
+
+    }
+
+} 
+
